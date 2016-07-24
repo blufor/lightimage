@@ -2,9 +2,8 @@
 
 This Docker image is based on [Gliderlabs' Alpine Linux image](https://github.com/gliderlabs/docker-alpine).
 
-## Modifications
+## Features
 - Ruby 2.3
-- Go 1.6
 - RunIt daemon
 - Useful CLI tools (```unzip```, ```make```, ```git```)
 - ETCD toolset (```etcdctl```, ```etcd2yaml```, ```yaml2etcd```, ```etcd-erb```)
