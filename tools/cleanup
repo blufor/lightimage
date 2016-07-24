@@ -1,0 +1,10 @@
+#!/bin/bash
+
+b "cleaning up after build..."
+apt-get -qq clean
+rm -rf \
+  /var/cache/apk/* \
+  /tmp/* \
+  /var/tmp/* \
+  /var/log/* \
+bl OK
